@@ -1,0 +1,23 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Testing practice for JavaScript functions using the Jest library and following the AAA pattern and TDD approach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MNisarAli/Testing-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MNisarAli/Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/MNisarAli/Testing-Practice",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
