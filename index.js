@@ -5,4 +5,8 @@ stringLength = (string) => {
   throw new Error("string length should be 1-10 char");
 };
 
-module.exports = { stringLength };
+const reverseString = (string) => {
+  return string.split("").reverse().join("");
+}
+
+module.exports = { stringLength, reverseString };
