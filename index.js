@@ -16,5 +16,8 @@ class Calculator {
   multiply = (num1, num2) => num1 * num2;
 }
 
+capitalizeFirstChar = (string) => {
+  return string[0].toUpperCase() + string.slice(1);
+}
 
-module.exports = { stringLength, reverseString, Calculator };
+module.exports = { stringLength, reverseString, Calculator, capitalizeFirstChar };

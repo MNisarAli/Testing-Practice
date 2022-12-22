@@ -1,4 +1,4 @@
-const { stringLength, reverseString, Calculator } = require("./index.js");
+const { stringLength, reverseString, Calculator, capitalizeFirstChar } = require("./index.js");
 const calculator = new Calculator;
 
 // Task 1 => Test Case 1
@@ -78,4 +78,10 @@ describe("Check Multiply Calculator", () => {
   test("Should retrun multiplication result", () => {
     expect(calculator.multiply(27, 3)).toBe(81);
   });
+});
+
+// Task 4
+test("Should caplitalized first char", () => {
+  const output = capitalizeFirstChar("string")
+  expect(output).toBe("String");
 });
